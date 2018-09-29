@@ -25,14 +25,14 @@
 		font-size: 11pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #777;
+		color: #333333;
 	}
 
 	h1,h2,h3,h4,h5,h6
 	{
 		font-size: 16pt;
-		font-weight: 300;
-		color: #777;
+		font-weight: 400;
+		color: #666666;
 	}
 	
 		h2
@@ -62,7 +62,7 @@
 	a
 	{
 		text-decoration: none;
-		color: #80BA8E;
+		color: #0000ff;
 	}
 	
 	a:hover
