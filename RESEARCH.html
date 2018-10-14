@@ -10,6 +10,62 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+		
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			.row {
+				display: flex;
+			}
+
+			/* Create three equal columns that sits next to each other */
+			.column3 {
+				flex: 33.33%;
+				padding: 5px;
+			}
+			
+			.column2 {
+				flex: 50%;
+				padding: 5px;
+			}			
+
+			.containerPic {
+				position: relative;
+				text-align: center;
+				color: white;
+				
+			}
+			
+			.centered {
+				position: absolute;
+				font-weight: 600;
+				font-size: 100%;
+				text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+				top: 10%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			img:hover{
+			  opacity:0.4; /* how much transparent you want image to be*/
+			  filter:alpha(opacity=40); /* browser fix*/
+			  -webkit-opacity:0.4; /*vendor prefixes for website browsers*/
+			  -moz-opacity:0.4; /* same as above, edited thankx to @ Daniel_Lisik  */
+			}
+
+			.shadow {
+				display: block;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				text-align: center;
+				line-height = 0px;
+			}
+			.shadow img {
+				display: block;
+			}
+			
+		</style>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
@@ -19,6 +75,7 @@
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		</noscript>
 	</head>
 	<body>
@@ -49,101 +106,68 @@
 	<!-- Header --> 
 
 	<!-- Main -->
-		<div id="main">
-			<div id="content" class="container">
+		
 
-				<div class="row">
-					<section class="6u">
-						<header>
-							<h2> Wind and structural health monitoring </h2>
-						</header>
-						<a href="#" class="image full"><img src="images/pic01.jpg" alt=""></a>
-						<p>
-						Wind and structural health monitoring is an essential step of the validation of the buffeting theory, which describes the 
-						wind-induced response of a structure to atmospheric turbulence. The Lysefjord suspension Bridge has been used since 2013 as a full-scale wind 
-						engineering laboratory and is now instrumented with nine 3D sonic anemometers as well as four pairs of tri-axial accelerometers inside the deck. 
-						This makes the bridge one of the world's most densely instrumented suspension bridge in terms of wind sensors. 
-						A master data logging unit synchronizes all the data into a single data file, which is then continuously transmitted via a mobile net. 
-						<br>
-						To know more: 
-						<a href="http://dx.doi.org/10.1016/j.engstruct.2016.09.060" target="_blank">[link1]</a>
-						<a href="http://dx.doi.org/10.1007/978-3-319-54777-0_12" target="_blank">[link2]</a>
-						<a href="http://dx.doi.org/10.1016/j.proeng.2017.09.471" target="_blank">[link3]</a>	
-						
-						</p>
-					</section>				
-					<section class="6u">
-						<header>
-							<h2> Remote Sensing of Wind </h2>
-						</header>
-						<p style="margin-bottom:4.75em;"> </p>
-						<a href="#" class="image full"><img src="images/pic02.jpg" alt=""></a>
-						<p>
-						 We are involved in pioneering research to know how Doppler wind lidar technology can be used for wind engineering applications. 
-						 Using both long-range and short-range lidar instruments, we have investigated their capability to monitor the wind conditions in Norwegian fjords (Lysefjord and Bjørnafjord).
-						 This includes both the characterization of atmospheric turbulence and the estimation of the mean wind velocity and a comparison of such measurement with those from sonic anemometers, whenever possible.
-						<br>
-						To know more: 						
-						<a href="https://www.mdpi.com/2072-4292/9/10/977/pdf" target="_blank">[link1]</a>
-						<a href="http://dx.doi.org/10.1007/s00348-016-2275-9" target="_blank">[link2]</a>
-						<a href="http://dx.doi.org/10.1016/j.jweia.2016.12.002" target="_blank">[link3]</a>
-						<a href="http://dx.doi.org/10.1016/j.egypro.2017.10.367" target="_blank">[link4]</a>
-						</p>
-					</section>				
+		
+		
+			<div id="main">
+				<div id="content" class="container">	
+					 <div class="row">
+						  <div class="column3">
+							  <div class="containerPic">
+								<div class="shadow">
+									<a href="WASHM.html"><img src="images/pic01.jpg" alt="Index" style="width:100%" /></a>
+								</div>
+								 <div class="centered"> Wind and structural health monitoring </div>
+							  </div>
+						  </div>
+						  <div class="column3">
+							  <div class="containerPic">
+								<div class="shadow">
+									<a href="windLidar.html"><img src="images/pic02.jpg" alt="Index" style="width:100%" /></a>
+								</div>
+								<div class="centered"> Remote sensing of wind </div>
+							  </div>
+						  </div>
+						  <div class="column3">
+							  <div class="containerPic">
+							  <div class="shadow">
+								<a href="StructDyn.html"><img src="images/pic03.jpg" alt="Index" style="width:100%" /></a>
+							  </div> 
+								 <div class="centered"> Structural dynamic </div>
+							  </div>
+						  </div>
+					</div> 
+					 <div class="row">
+						  <div class="column3">
+							  <div class="containerPic">
+								<div class="shadow">
+									<a href="cableAero.html"><img src="images/cable_heidi1.jpg" alt="Index" style="width:100%" /></a>
+								</div>	
+									<div class="centered"> Cable aerodynamic  </div>
+							  </div>
+						  </div>
+						  <div class="column3">
+							  <div class="containerPic">
+								<div class="shadow">
+									<a href="BBA.html"><img src="images/toBeReplaced.png" alt="Index" style="width:100%" /></a>
+									<div class="centered"> Bluff body aerodynamic </div>
+								</div>
+							  </div>
+						  </div>
+						  <div class="column3">
+							<a href=="#"><img src="//:0" alt="Index" style="width:100%"/></a>
+						  </div>						  
+					</div> 
 				</div>
-
-				<div class="row">
-					<section class="6u">
-						<header>
-							<h2> Structural Dynamic </h2>
-						</header>
-						<a href="#" class="image full"><img src="images/pic03.jpg" alt=""></a>
-						<p>
-						Similarly to challenges regarding the load and response modelling of offshore wind turbines, bridges on floating supports require an integrated assessment of wind, wave and current loads. 
-						We have developed an in-house algorithm for this purpose, which combines the simulation of the turbulence wind field and the associates wind loading, with hydrodynamic loads on a tension leg platform type of bridge foundation, using a finite element model in Abaqus as the basis. 
-						The tool, which allows one to study the relative importance of the various environmental factors for the design, will be further developed and adapted to the specific bridge designs.
-						<br>
-						To know more: 
-						<a href="http://dx.doi.org/10.1016/j.jweia.2018.03.024" target="_blank">[link1]</a>
-						</p>
-					</section>				
-					<section class="6u">
-						<header>
-							<h2>Cable aerodynamic</h2>
-						</header>
-						<!-- <p style="margin-bottom:4.75em;"> </p> -->
-						<a href="#" class="image full"><img src="images/cable_heidi1.jpg" alt=""></a>
-						<p>
-						Long-span bridges are normally designed as cable-supported structures, in which cables in different arrangements support bridge deck and transmit the dead, service and environmental loads to supports and foundations. 
-						While cables are essential for safe operation of a bridge, they are extremely sensitive to various types of dynamic excitation and thus susceptible to fatigue and other types of damage. 
-						The wind-induced vibrations of cables include phenomena such as rain-wind vibrations of stay cables, dry cable galloping, parametric excitation, tower wake excitation of hangers, vortex-induced vibrations, ice- wind vibrations etc. 
-						Improved understanding of various types of the vibrations is vital for their effective suppression, by establishing necessary levels of damping to prevent the excessive response. 
-						We are involved in the joint international research focusing on the aerodynamic countermeasures to limit the galloping cable vibrations. 
-						A novel cable surface design has been proposed and will be further optimized.
-						<br>
-						To know more: 
-						<a href="http://dx.doi.org/10.1016/j.jweia.2018.01.044" target="_blank">[link1]</a>
-						<a href="http://dx.doi.org/10.1016/j.jweia.2018.01.045" target="_blank">[link2]</a>	
-						</p>
-					</section>				
-				</div>
-				<div class="row">
-					<section class="6u">
-						<header>
-							<h2>  Bluff body aerodynamic  </h2>
-						</header>
-						<a href="#" class="image full"><img src="images/toBeReplaced.png" alt=""></a>
-						<p>
-						An improved understanding of the interaction between the bridge motion and the turbulent flow around the deck may be achieved using pressure measurement around the girder but also lidar remote sensing technology. 
-						<br>
-						To know more:
-						<a href="http://dx.doi.org/10.1016/j.jweia.2017.10.007" target="_blank">[link1]</a>	
-						</p>
-					</section>							
-				</div>
-			</div>
 		</div>
-
+		
+		
+		
+		
+		
+		
+		
 		
 <!-- 		<div id="tweet">
 			<div class="container">
