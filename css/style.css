@@ -19,6 +19,12 @@
 		background: #161616;
 	}
 
+	video {
+	  width: 100%;
+	  margin-top: 0%;
+	}
+
+
 	body,input,textarea,select
 	{
 		font-family: 'Roboto', sans-serif;
@@ -163,7 +169,7 @@
 		{
 			margin-bottom: 0;
 		}
-
+		
 	/* Images */
 
 		.image
