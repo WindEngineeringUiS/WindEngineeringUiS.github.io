@@ -23,6 +23,19 @@
 			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/5.0.0/css/font-awesome.min.css" rel="stylesheet"/>
 			
 		</noscript>
+		<style>
+		.button {
+			background-color:  #555555;
+			border: none;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		</style>
 	</head>
 	<body>
 	
@@ -73,7 +86,9 @@
 						We are involved in the joint international research focusing on the aerodynamic countermeasures to limit the galloping cable vibrations. 
 						A novel cable surface design has been proposed and will be further optimized.
 					</p>
-					
+					<p>
+						<button  class="button" onclick="goBack()">Go back</button>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -87,5 +102,11 @@
 			
 			
 		</div>
+		
+		<script>
+		function goBack() {
+			window.history.back();
+		}
+		</script>
 	</body>
 </html>

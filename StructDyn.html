@@ -23,6 +23,19 @@
 			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/5.0.0/css/font-awesome.min.css" rel="stylesheet"/>
 			
 		</noscript>
+		<style>
+		.button {
+			background-color:  #555555;
+			border: none;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		</style>
 	</head>
 	<body>
 	
@@ -70,7 +83,9 @@
 						We have developed an in-house algorithm for this purpose, which combines the simulation of the turbulence wind field and the associates wind loading, with hydrodynamic loads on a tension leg platform type of bridge foundation, using a finite element model in Abaqus as the basis. 
 						The tool, which allows one to study the relative importance of the various environmental factors for the design, will be further developed and adapted to the specific bridge designs.
 					</p>
-					
+					<p>
+						<button  class="button" onclick="goBack()">Go back</button>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -84,5 +99,11 @@
 			
 			
 		</div>
+		
+		<script>
+		function goBack() {
+			window.history.back();
+		}
+		</script>
 	</body>
 </html>

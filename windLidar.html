@@ -20,9 +20,38 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/5.0.0/css/font-awesome.min.css" rel="stylesheet"/>
-			
+			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/5.0.0/css/font-awesome.min.css" rel="stylesheet"/>			
 		</noscript>
+		<style>
+		.button {
+			background-color:  #555555;
+			border: none;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		
+		.main {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  vertical-align: bottom;
+	}
+
+		.sectionA {
+	  width: 50%;
+	  height: 100%;
+	}
+
+		.sectionB {
+	  width: 45%;
+	  height: 100%;
+	}
+		</style>
 	</head>
 	<body>
 	
@@ -68,6 +97,9 @@
 					<p> We are involved in pioneering research to know how Doppler wind lidar technology can be used for wind engineering applications. 
 						 Using both long-range and short-range lidar instruments, we have investigated their capability to monitor the wind conditions in Norwegian fjords (Lysefjord and Bjørnafjord).
 						 This includes both the characterization of atmospheric turbulence and the estimation of the mean wind velocity and a comparison of such measurement with those from sonic anemometers, whenever possible.
+					</p>
+					<p>
+						<button  class="button" onclick="goBack()">Go back</button>
 					</p>
 					
 					<main class='main'>	
@@ -125,5 +157,11 @@
 			
 			
 		</div>
+
+		<script>
+		function goBack() {
+			window.history.back();
+		}
+		</script>
 	</body>
 </html>
