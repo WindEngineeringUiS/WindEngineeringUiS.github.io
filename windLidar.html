@@ -117,9 +117,13 @@
 							Introduction
 						</h3>
 					</header>
-						<p> some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text </p>
+						<p>
+						LIDAR is the acronym for Light Detection And Ranging. It is a remote sensing technology based on the emission of a laser beam and the analysis of the backscattered light by gas and particles in the atmosphere. 
+						A lidar is therefore made of three main components: a laser, a telescope, and the detection system.
+						Doppler wind lidar technology has become increasingly popular since the end of the 1990s. 
+						Although it was initially used in atmospheric research, it is nowadays often applied in the field of wind energy, for wind ressources assessement or to investigate the flow around wind turbines. 
+						At the University of Stavanger, we investigate how wind lidar technology can be used to complement traditional anemometers for wind load modelling through a better understanding of atmospheric turbulence.						
+						</p>
 				</div>
 			</div>
 			
@@ -132,46 +136,58 @@
 						<h2>
 							What is the line-of-sight velocity ?
 						</h2>
-						<p> some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						$$ v_r = \sqrt{u^2+v^2} \cos\left(\theta - \alpha \right)\cos\left(\omega\right) + w \cos\left(\omega\right) .$$
-						where, \(v_r\) is the line-of-sight velocity, sometimes called radial velocity;  \(u\), \(v\) and \(w\) are the along-wind, crosswind and vertical wind velocity components, respectively;
-						
+						<p> 
+ 						For wind velocity measurements, a so-called Doppler wind lidar with a wavelength of ca.  \(1.5 \mu m\)   is commonly used. 
+					    In that case, the atmospheric particles that backscatter the light are dust, pollen and aerosols. A fraction of the backscattered light is collected by the telescope and compared to the emitted light so that a Doppler shift frequency can be measured to estimate the line-of-sight (LOS) velocity of the aerosols, which is assumed identical to the wind velocity. 
+					    The LOS velocity component (Fig. 1), denoted hereafter \( v_r \), is also called along-beam velocity, and results from the projection of the three-dimensional wind velocity vector onto the scanning beam:
+						$$ v_r = u_N \cos\left(\alpha \right)\cos\left(\theta\right) + u_E \sin\left(\alpha \right)\cos\left(\theta\right) + w \cos\left(\theta\right) .$$
+						where, \(v_r\) is the line-of-sight velocity, sometimes called radial velocity;  \(u_N\), \(u_E\) and \(w\) are the Northern, Eastearn and vertical wind velocity components, respectively;  
+						\(\alpha\) is the azimuth angle and \(\theta\) is the elevation angle. The azimuth angle is defined with respect to the North, and the elevation angle is defined with respect to the horizontal plane
 						</p>
+						<p> 
+						A scanning Doppler wind lidar possesses a rotating head allowing hemispherical scanning. 
+						In that case, multiple scanning modes are available: the Velocity Azimuth Display (VAD), the Doppler Beam Swinging (DBS), the Plan Position Indicator (PPI), the Range Height Indicator(RHI) and the Line-Of-Sight (LOS) scan. 
+						Each scan is defined in terms of three parameters: a radial distance  \(r\), an azimuth \(\alpha\), and an elevation angle \(\theta\).
+						</p>	
 					  </section>
 					  </section>
 					  <section class='right sectionB'>
+					  <figure>
 					  	<video  autoplay loop muted>
 											<source src="videos/LineOfSightVelocity.mp4" class="media-object" type="video/mp4">
 						</video>	
+						<figcaption>Fig.1:  Line-of-sight velocity as a function of the wind direction </figcaption>
+						</figure>
 					</main>						
-					
-					
-					
-					
 					
 					
 					<main class='main'>	
 					  <section class='left sectionA'>
+					  	<figure>
 						<video  autoplay loop muted>
-											<source src="videos/RHI.mp4" class="media-object" type="video/mp4">
+											<source src="videos/PPI.mp4" class="media-object" type="video/mp4">
 						</video>	
+												<figcaption>Fig.2: PPI sector scan with azimuth between \(30^{\circ}\) to \(59^{\circ}\).  </figcaption>
+						</figure>
 					  </section>
 					  <section class='right sectionB'>
 					  	<h2>
-							Sectoral PPI scan
+							 Plan-Position Indicator scan
 						</h2>
-						<p> some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text </p>
+						<p> 
+						By definition, the Plan-Position Indicator (PPI) scan is run for a fixed elevation and multiple azimuth angles from \(0^{\circ}\) to \(360^{\circ}\).  
+						If the scanning head does not describe a full circle,  a so-called PPI sector scan is conducted (Fig. 2).	We have used such a scan in the Lysefjord
+						<cite><a href="http://dx.doi.org/10.1016/j.jweia.2016.12.002"><i>(Cheynet et al., 2017)</i></a></cite>	 to investigate the uniformity of the flow along 
+						the deck of a suspension bridge and the influence of the topography on the mean wind speed upstream of the bridge.	 
+						using small azimuth angles, we also applied a PPI sector scan was also conducted from an offshore platform	
+						</p>
 					  </section>
 					</main>	
 			
 					<main class='main'>	
 					  <section class='left sectionA'>
 						<video autoplay loop muted>
-											<source src="videos/PPI.mp4" class="media-object" type="video/mp4">
+											<source src="videos/RHI.mp4" class="media-object" type="video/mp4">
 						</video>	
 					  </section>
 					  <section class='right sectionB'>
