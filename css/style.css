@@ -28,14 +28,14 @@
     display: inline-block;
     border: none;
     margin: 20px; /* adjust as needed */
-}
-figure img {
+	}
+	figure img {
     vertical-align: top;
-}
-figure figcaption {
+	}
+	figure figcaption {
     border: none;
     text-align: center;
-}
+	}
 
 
 	body,input,textarea,select
