@@ -23,6 +23,19 @@
 	  width: 100%;
 	  margin-top: 0%;
 	}
+	
+	figure {
+    display: inline-block;
+    border: none;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: none;
+    text-align: center;
+}
 
 
 	body,input,textarea,select
