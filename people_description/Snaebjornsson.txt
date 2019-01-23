@@ -1,1 +1,5 @@
-test from Jonas
+I am full Professor at the School of Science and Engineering at Reykjavik University and a part-time Professor at the University of Stavanger. I hold a PhD in structural engineering from the Norwegian Institute of Technology (now NTNU), a M.S.C.E. in structural engineering from the University of Washington in Seattle, USA, and a C.Sc. in civil engineering from the University of Iceland.
+My main research area has been within natural hazards and structural dynamics, with emphasis on earthquake and wind action and dynamic response of structures. My research has generally evolved around monitoring structural excitation and response, analysis of recorded data and structural modelling. 
+
+At present, I am involved in studies of the aerodynamic of long-span bridges, including studies of turbulence and generation of wind loads on bridge box-girders and towers, including wind-structure interaction based on wind velocity and vibration data.
+I have participated as management committee member in COST Action C14: Impact of Wind and Storm on City life and Built Environment; COST Action TU1207: Next Generation Design Guidelines for Composites in Construction; and COST Action TU1402-Quantifying the value of structural health monitoring.
