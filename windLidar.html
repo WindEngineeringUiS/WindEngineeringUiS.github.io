@@ -24,6 +24,11 @@
 			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/5.0.0/css/font-awesome.min.css" rel="stylesheet"/>			
 		</noscript>
 		<style>
+		img {
+				  display: block;
+				  margin-left: auto;
+				  margin-right: auto;
+				}
 		.button {
 			background-color:  #555555;
 			border: none;
@@ -108,7 +113,6 @@
 			<br>
 			<br>
 			<br>
-			<br>
 			
 			<div id="content" class="container">
 				<div class="row">
@@ -159,8 +163,7 @@
 						<figcaption>Fig.1:  Line-of-sight velocity as a function of the wind direction </figcaption>
 						</figure>
 					</main>						
-					
-					
+
 					<main class='main'>	
 					  <section class='left sectionA'>
 					  	<figure>
@@ -186,33 +189,91 @@
 			
 					<main class='main'>	
 					  <section class='left sectionA'>
+					  <figure>
 						<video autoplay loop muted>
 											<source src="videos/RHI.mp4" class="media-object" type="video/mp4">
 						</video>	
+											<figcaption>Fig.3: RHI sector scan with elevation between \(0^{\circ}\) to \(6^{\circ}\).  </figcaption>
+						</figure>
 					  </section>
+					  
 					  <section class='right sectionB'>
 					  	<h2>
 							Sectoral RHI scan
 						</h2>
-						<p> some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text </p>
+						<p> 
+						The Range-Height Indicator (RHI) scan is run for a fixed azimuth and multiple elevation angles.  We have used such a scan on the FINO1 platform at the end of 2015 
+						 to study the vertical coherence of wind above the ocean <cite><a href="http://dx.doi.org/10.1016/j.egypro.2016.09.217"><i>(Cheynet et al., 2015)</i></a></cite>.	
+						</p>
 					  </section>
 					</main>
 					
-					<p> some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text
-					</p>
-
-					<p> some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
-						some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text
-					</p>
 					
 				</div>
 			</div>
+			<br>
+			<br>
+			
+				<div id="content" class="container">
+					<div class="row">
+						<header>
+							<h3>
+								Long-range pulsed scanning wind lidar
+							</h3>
+						</header>
+							<p>
+							A long range scanning wind lidar can measure the along-beam wind velocity component at distances up to several kilometers from the observer, 
+							simultaneously in multiple position along the scanning beam.
+							In 2014, a WindCube 100S from the company Leosphere (France) was deployed in the Lysefjord (Fig. 4). This instruments operate with a sampling frequency up to 1 Hz.
+							The influence of the topography on the mean flow was captured by the sectoral PPI scan of the lidar (Fig. 5) 
+							
+						<figure>
+							<img src="./images/Fig1_windLidar.jpg"  style="width:70%" class="center">
+							<figcaption>Fig.4 Left: Schematic view of the area scanned by the WindCube 100S deployed 1.8 km far from the Lysefjord bridge in 2014. Right: Schematic of the WindCube 100S.   </figcaption>
+						</figure>
+							<figure>
+							<img src="./images/Fig2_windLidar.jpg"  style="width:40%" class="center">
+							<figcaption>Fig.5 Mean value of the along-beam wind velocity derived from PPI scans recorded on 2014-05-22 between 16:50:22 and 17:25:44 with an elevation of 3.2°. The wind was blowing from south-southwest at the bridge site. The radial grey contour indicates the altitude (in meters) above the sea level.   </figcaption>
+						</figure>
+							</p>
+							
+					</div>
+				</div>
+				<br>
+			
+				<div id="content" class="container">
+					<div class="row">
+						<header>
+							<h3>
+								Short-range continuous-wave  lidar
+							</h3>
+						</header>
+							<p>	
+							A continuous-wave short-range lidar can monitor the flow at a much higher sampling frequency than a pulsed Doppler wind lidar, but at a lower distance and in a single position.
+							The short-range WindScanner system  <cite><a href="http://www.windscanner.dk/">(http://www.windscanner.dk/)</a></cite> 
+							developed at the Department of Wind Energy at the Technical University of Denmark (DTU) Risø campus was deployed in May 2014 on the Lysefjord bridge to 
+							study the turbulent flow around the Lysefjord Bridge.	 
+							Two short-range WindScanner instruments were used for this purpose, which have a maximal sampling frequency around 390 Hz.
+							The flow was studied at a distance of 40 m from the bridge deck (Fig. 6).	
+							The turbulent flow along a horizontal line was studied for a wind blowing from south-southwest (<cite><a href="http://dx.doi.org/10.1007/s00348-016-2275-9"><i>(Cheynet et al., 2016)</i></a></cite>). 
+							An additional study was conducted along a vertical line for a flow from north-northeast  (<cite><a href="http://dx.doi.org/10.1016/j.jweia.2017.10.007"><i>(Cheynet et al., 2017)</i></a></cite>), 
+							for which the turbulent wake of the girder was recorded.
+							<figure>
+							<img src="./images/Fig3_windLidar.jpg"  style="width:40%" class="center">
+							<figcaption>Fig.6 Schematic of the different scans conducted with the short-range WindScanner system: one along a horizontal line (22-05-2014) and one along a vertical line (23-05-2014).   </figcaption>
+							</figure>
+							</p>
+					</div>
+				</div>			
+			
+			
+			
 		</div>
+		
+		
+		
+		
+		
 	<!-- Copyright -->
 		<div id="copyright">
 			<div class="container">
