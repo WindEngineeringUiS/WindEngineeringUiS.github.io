@@ -1,4 +1,9 @@
 <!DOCTYPE HTML>
+<!--
+	Linear by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
 	<head>
 		<title>Wind Engineering at UiS</title>
@@ -16,11 +21,14 @@
 			}
 
 			/* Create three equal columns that sits next to each other */
+			.column5 {
+				flex: 20%;
+				padding: 5px;
+			}
 			.column3 {
 				flex: 33.33%;
 				padding: 5px;
 			}
-			
 			.column2 {
 				flex: 50%;
 				padding: 5px;
@@ -42,6 +50,15 @@
 				transform: translate(-50%, -50%);
 			}
 
+			.bottom {
+				position: absolute;
+				font-weight: 600;
+				text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+				top: 90%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			
 			img:hover{
 			  opacity:0.4; /* how much transparent you want image to be*/
 			  filter:alpha(opacity=40); /* browser fix*/
@@ -85,6 +102,7 @@
 		</noscript>
 	</head>
 	<body>
+	
 
 	<!-- Header -->
 		<div id="header">
@@ -92,11 +110,11 @@
 				<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Homepage</a></li>
-						<li class="active"><a href="RESEARCH.html">RESEARCH</a></li>
+						<li class="active"><a href="index.html">Homepage</a></li>
+						<li><a href="RESEARCH.html">RESEARCH</a></li>
 						<li><a href="PEOPLE.html">PEOPLE</a></li>
 						<li><a href="PUBLICATIONS.html">PUBLICATIONS</a></li>
-						<li><a href="NEWS.html">NEWS</a></li>	
+						<li class="active"><a href="NEWS.html">NEWS</a></li>
 						<li><a href="CONTACT.html">CONTACT</a></li>
 					</ul>
 				</nav>
@@ -113,89 +131,78 @@
 	<!-- Header --> 
 
 	<!-- Main -->
-		
-
-		
-		
+	
 			<div id="main">
 				<div id="content" class="container">	
 					 <div class="row">
-						  <div class="column3">
+					<header>
+						<h3>
+							Some RSS feeds about news
+						</h3>
+						<br>
+						<br>
+						<br>
+						<br>
+					</header>
+					</div>
+				</div>
+				
+				
+				<div id="content" class="container">	
+					 <div class="row">
+						<div class="row">
+						  <div class="column5">
 							  <div class="containerPic">
 								<div class="shadow">
-									<a href="WASHM.html"><img src="images/pic01.jpg" alt="Wind and structural health monitoring" style="width:100%" /></a>
+									<a href="IAWE.html" class="square" ><img src="images/IAWE.jpg" alt="International Associations for Wind Engineering" style="width:100%"  /></a>
 								</div>
-								 <div class="centered"> <nobr> Wind and structural health monitoring  </nobr> </div>
+								 <div class="centered"> <nobr>  </nobr> </div>
 							  </div>
 						  </div>
-						  <div class="column3">
+						  <div class="column5">
 							  <div class="containerPic">
 								<div class="shadow">
-									<a href="windLidar.html"><img src="images/pic02.jpg" alt="Remote sensing of wind" style="width:100%" /></a>
+									<a href="IMBM.html"><img src="images/UIS_logo.png" alt="Departement of mechanical and Structural Engineering and Materials Sciences" style="width:100%" /></a>
 								</div>
-								<div class="centered"> Remote sensing of wind </div>
+								<div class="bottom"> </div>
 							  </div>
 						  </div>
-						  <div class="column3">
+						  <div class="column5">
+							  <div class="containerPic">
+								<div class="shadow">
+									<a href="JWEIA.html"><img src="coverJournals/JWEIA.jpg" alt="Journal of Wind Engineering and industrial aerodynamic" style="width:100%" /></a>
+								</div>
+								 <div class="centered"> <nobr> </nobr> </div>
+							  </div>
+						  </div>
+						  <div class="column5">
+							  <div class="containerPic">
+								<div class="shadow">
+									<a href="ES.html"><img src="coverJournals/EngStruct.jpg" alt="Engineering structures" style="width:100%" /></a>
+								</div>
+								<div class="centered"> </div>
+							  </div>
+						  </div>
+						  <div class="column5">
 							  <div class="containerPic">
 							  <div class="shadow">
-								<a href="StructDyn.html"><img src="images/pic03.jpg" alt="Structural dynamic" style="width:100%" /></a>
+								<a href="BLM.html"><img src="coverJournals/BLM.jpg" alt="Boundary layer meteorology" style="width:100%" /></a>
 							  </div> 
-								 <div class="centered"> Structural dynamic </div>
+								 <div class="centered"> </div>
 							  </div>
 						  </div>
-					</div> 
-					 <div class="row">
-						  <div class="column3">
-							  <div class="containerPic">
-								<div class="shadow">
-									<a href="cableAero.html"><img src="images/cable_heidi1.jpg" alt="Cable aerodynamic" style="width:100%" /></a>
-								</div>	
-									<div class="centered"> Cable aerodynamic  </div>
-							  </div>
-						  </div>
-						  <div class="column3">
-							  <div class="containerPic">
-								<div class="shadow">
-									<a href="BBA.html"><img src="images/toBeReplaced.png" alt="Index" style="width:100%" /></a>
-									<div class="centered"> Bluff body aerodynamic </div>
-								</div>
-							  </div>
-						  </div>
-						  
-						  <div class="column3">
-							<a href=="#"><img src="//:0"  style="width:100%"/></a>
-						  </div>						  
 					</div> 
 				</div>
-		</div>
-		
-		
-		
-		
-		
-		
-		
-		
-<!-- 		<div id="tweet">
-			<div class="container">
-			</div>
-		</div> -->
+		</div>	
+	<!-- /Main -->
 
-	<!-- Footer -->
-<!-- 		<div id="footer">
-			<div class="container">
-			</div>
-		</div> -->
-		
 	<!-- Copyright -->
 		<div id="copyright">
 			<div class="container">
 				Design: <a href="http://templated.co">TEMPLATED</a>
 				<br>© 2018 E Cheynet
 			</div>
-		</div>
-
-
+		</div>	
+		
 	</body>
 </html>
