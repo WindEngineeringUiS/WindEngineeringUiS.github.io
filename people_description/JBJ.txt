@@ -1,3 +1,9 @@
-I am Professor in structural engineering at the University of Stavanger. I hold a PhD in structural engineering from the Norwegian Institute of Technology (now NTNU) and a M.Sc. in structural engineering from the University of Novi Sad, Serbia.
-My main research area is structural dynamics, with emphasis on wind loads and wind-induced vibrations of slender structures. The research topics include generation of buffeting loads on bridge box-girders typically used in long-span bridges and methods to capture the wind-structure interaction responsible for bridge flutter, from ambient vibration data.
-At present, I am involved in studies of aerodynamics of bridge stay cables in the critical Reynolds number range, in full-scale wind and bridge response monitoring, and in various studies on aerodynamics of wind turbine rotors. I am a member of NORCOWE’s scientific committee and the center management group. 
+I am Professor in structural engineering at the University of Stavanger. 
+I hold a PhD in structural engineering from the Norwegian Institute of Technology (now NTNU) and a M.Sc. in structural engineering from the University of Novi Sad, Serbia. 
+My main research area is structural dynamics, with emphasis on wind loads and wind-induced vibrations of slender structures. 
+The research topics include generation of buffeting loads on bridge box-girders typically used in long-span bridges and methods to capture the wind-structure interaction responsible for bridge flutter, 
+from ambient vibration data. I have contributed to a number of wind tunnel studies of long-span bridges in North Europe, as well as several international studies devoted to wind-induced bridge cable vibrations. 
+Since 2013 I have been managing UiS field investigations of wind characteristics and wind-induced vibrations at Lysefjord bridge, 
+supported by the Norwegian Public Roads Administration as part of the E39 Coastal Highway Route project. 
+My involvement in the Norwegian Center for Offshore Wind Energy NORCOWE (2009-2017) inspired pioneering applications of optical remote wind sensing in bridge engineering, 
+using so-called lidars, in collaboration with several NORCOWE partners and the Technical University of Denmark. 
